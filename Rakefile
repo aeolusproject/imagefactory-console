@@ -32,7 +32,7 @@ RPM_SPEC = "rubygem-imagefactory-console.spec"
 
 spec = Gem::Specification.new do |s|
   s.name = 'imagefactory-console'
-  s.version = '0.4.0'
+  s.version = '0.5.0'
   s.has_rdoc = true
   #s.extra_rdoc_files = ['README', 'COPYING']
   s.summary = 'QMF Console for Aeolus Image Factory'
