@@ -44,7 +44,7 @@ module Rake
       File.open(rpm_spec, "r") { |f|
         contents = f.read
         # Parse out definitions and crudely expand them
-        contents.scan(/%define .*\n/).each do |definition|
+        contents.scan(/%define|%global .*\n/).each do |definition|
           words = definition.strip.split(' ')
           key = words[1]
           value = words[2..-1].to_s
