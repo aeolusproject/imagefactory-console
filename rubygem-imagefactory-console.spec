@@ -7,7 +7,7 @@
 Summary: QMF Console for Aeolus Image Factory
 Name: rubygem-%{gemname}
 Version: 0.5.0
-Release: 4%{?dist}%{?extra_release}
+Release: 4%{?extra_release}%{?dist}
 Group: Development/Languages
 License: GPLv2+ or Ruby
 URL: http://aeolusproject.org
